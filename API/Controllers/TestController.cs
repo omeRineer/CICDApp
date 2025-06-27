@@ -10,7 +10,7 @@ namespace API.Controllers
         [HttpGet]
         public async Task<IActionResult> Test()
         {
-            return Ok("CI CD Süreci Başarılı");
+            return Ok("Deploy Application");
         }
     }
 }
